@@ -1,0 +1,192 @@
+* {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url("../font/Avenir-Book.woff") format("woff"), url("../font/Avenir-Book.ttf") format("truetype"), url("../font/Avenir-Book.otf") format("opentype");
+}
+
+.f-height {
+	height: 100vh;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+/******************************
+********* LEFT SIDE **********
+*******************************/
+
+.title {
+	text-align: center;
+	font-size: 115px;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.image {
+	width: 15vw;
+	min-width: 125px;
+	max-width: 500px;
+}
+
+.color {
+	background-color: #00395E;
+}
+
+.margin-right {
+  margin-right: 15px;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 30px;
+}
+
+.s-icon {
+  width: 24px;
+}
+
+/******************************
+********* RIGHT SIDE **********
+*******************************/
+
+.contain {
+	padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.text {
+	text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Contact Form */
+
+.contact-area {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-area:before {
+    top: 33%;
+    height: 230px;
+}
+
+.contact-form label {
+    display: none;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 15px -6px rgba(0, 0, 0, 0.3);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.contact-form button.button {
+    background-color: #CB1800;
+}
+
+.contact-form button.button:hover {
+    -webkit-box-shadow: 0px 0px 3px 0px;
+    box-shadow: 0px 0px 3px 0px;
+    color: white;
+    transform: translateY(-1px) translateX(1px);
+}
+
+.contact-form .button-text:hover {
+    color: white;
+}
+
+.contact-form .button-text {
+    color: white;
+}
+
+.contact-form textarea:focus {
+    box-shadow: 2px 2px 15px -6px rgba(0, 0, 0, 0.3);
+}
+
+
+.button {
+    display: flex;
+    background-color: transparent;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    height: 40px;
+    /*text-transform: uppercase;*/
+    font-weight: 100;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+button.button {
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+    -webkit-box-shadow: 0px 0px 5px 0px !important;
+    box-shadow: 0px 0px 5px 0px !important;
+    color: #CB1800 !important;
+    -webkit-transition: .3s !important;
+    -o-transition: .3s !important;
+    transition: .3s !important;
+}
+
+input {
+    -webkit-transition: .3s !important;
+    -o-transition: .3s !important;
+    transition: .3s !important;
+}
+
+/* Material Icons */
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+	.title {
+		font-size: 70px;
+	}
+
+	.text {
+    	font-size: 18px;
+	}
+
+}
