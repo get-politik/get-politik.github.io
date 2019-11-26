@@ -187,6 +187,11 @@ input {
 
 	.text {
     	font-size: 18px;
+      margin-top: 50px;
 	}
+
+  .special-height {
+    height: 90vh;
+  }
 
 }
