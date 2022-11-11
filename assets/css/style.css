@@ -1,7 +1,7 @@
 * {
-	font-family: Avenir;
-	font-style: normal;
-	font-weight: normal;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
@@ -10,9 +10,9 @@
 }
 
 .f-height {
-	height: 100vh;
-	margin-left: 0px !important;
-	margin-right: 0px !important;
+    height: 100vh;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 /******************************
@@ -20,33 +20,33 @@
 *******************************/
 
 .title {
-	text-align: center;
-	font-size: 115px;
-	letter-spacing: -0.02em;
-	color: white;
+    text-align: center;
+    font-size: 115px;
+    letter-spacing: -0.02em;
+    color: white;
 }
 
 .image {
-	width: 15vw;
-	min-width: 125px;
-	max-width: 500px;
+    width: 15vw;
+    min-width: 125px;
+    max-width: 500px;
 }
 
 .color {
-	background-color: #00395E;
+    background-color: #00395E;
 }
 
 .margin-right {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 .social-links {
-  position: absolute;
-  bottom: 30px;
+    position: absolute;
+    bottom: 30px;
 }
 
 .s-icon {
-  width: 24px;
+    width: 24px;
 }
 
 /******************************
@@ -54,12 +54,12 @@
 *******************************/
 
 .contain {
-	padding-left: 5vw;
+    padding-left: 5vw;
     padding-right: 5vw;
 }
 
 .text {
-	text-align: center;
+    text-align: center;
     font-size: 32px;
     margin-bottom: 30px;
 }
@@ -92,6 +92,9 @@
 
 .contact-form button.button {
     background-color: #CB1800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-form button.button:hover {
@@ -154,44 +157,45 @@ input {
 /* Material Icons */
 
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
 
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
 
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 767px) {
-	.title {
-		font-size: 70px;
-	}
+    .title {
+        font-size: 70px;
+    }
 
-	.text {
-    	font-size: 18px;
-      margin-top: 50px;
-	}
+    .text {
+        font-size: 18px;
+        margin-top: 50px;
+    }
 
-  .special-height {
-    height: 90vh;
-  }
+    .special-height {
+        height: 90vh;
+    }
 
 }
